@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header {
+    background-image: url("./header-background.png");
+    background-color: blue;
+    background-size: 100% 100%;
+    height: 156px;
+    vertical-align: bottom;
+    position: relative;
+}
+.login-btn {
+    text-align: right;
+    text-decoration: underline;
+    color: white;
+    font-size: 22px;
+    margin: 5px;
+
+}
+
+.arrow-btn {
+    width: 25px;
+    height: 25px;
+}
+.menu-button {
+    background-image: url("./btn-bg.png");
+    background-size: 100% 100%;
+}
+.menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.my-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    width: auto;
+    float: right;
+    background-color: #084ffd;
+}
+li {
+    float: left;
+    text-align: right;
+    padding:30px;
+    color: #fff;
+    font-weight: bold;
+    border-right: 2px solid #797b7d;
+
+}
+li a {
+    text-decoration: none;
+}
+.members {
+    display: block;
+    font-size: 36px;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+header a {
+    color: #fff;
+    font-family: Arial;
+}
+h3 {
+    text-align: center;
+    padding-top: 40px;
+}
+.log {
+    display: block;
+    width: 500px;
+    padding-top: 50px;
+    margin: auto;
+}
+.email {
+    display: block;
+    float: left;
+    width: 250px;
+}
+.checkbox1  {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 230px;
+}
+.button{
+
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.pass{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+
+}
+footer {
+    margin-top: 150px;
+    text-align: center;
+}
